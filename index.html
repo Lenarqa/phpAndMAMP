@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Form</title>
+</head>
+<body>
+    <div class="container mt-4">
+      <h1>Заявка на изготовление детали</h1><br>
+      <form method="post" action="check.php">
+          <input type="text" class="form-control" name="name"  placeholder="Введите наименование" ><br>
+          <input type="text" class="form-control" name="art"  placeholder="Введите артикль" ><br>
+          <input type="text" class="form-control" name="color"  placeholder="Введите цвет"><br>
+          <input type="text" class="form-control" name="depth"  placeholder="Введите толщину (мм)" ><br>
+          <input type="text" class="form-control" name="materialname"  placeholder="Введите наименование материала" ><br>
+          <input type="text" class="form-control" name="gabweight"  placeholder="Введите габаритную ширину (мм)"><br>
+          <input type="text" class="form-control" name="gablenght"  placeholder="Введите габаритную длину (мм)" ><br>
+          <input type="text" class="form-control" name="gabdepth"  placeholder="Введите габаритную толщину (мм)" ><br>
+          <input type="text" class="form-control" name="num"  placeholder="Введите количество штук" ><br>
+          <input type="submit" class="btn btn-success">
+      </form>
+    </div>
+</body>
+</html>
